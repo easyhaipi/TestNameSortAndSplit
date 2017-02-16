@@ -15,6 +15,8 @@
 		0B4EAC571E557AE700DD059D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4EAC551E557AE700DD059D /* LaunchScreen.storyboard */; };
 		0B4EAC621E557AE700DD059D /* TestNameSortAndSplitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4EAC611E557AE700DD059D /* TestNameSortAndSplitTests.m */; };
 		0B4EAC6D1E557AE700DD059D /* TestNameSortAndSplitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4EAC6C1E557AE700DD059D /* TestNameSortAndSplitUITests.m */; };
+		0B4EAC7C1E557B2900DD059D /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4EAC7B1E557B2900DD059D /* ChineseString.m */; };
+		0B4EAC7F1E557B3200DD059D /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B4EAC7D1E557B3200DD059D /* pinyin.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0B4EAC681E557AE700DD059D /* TestNameSortAndSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNameSortAndSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4EAC6C1E557AE700DD059D /* TestNameSortAndSplitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNameSortAndSplitUITests.m; sourceTree = "<group>"; };
 		0B4EAC6E1E557AE700DD059D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B4EAC7A1E557B2900DD059D /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
+		0B4EAC7B1E557B2900DD059D /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
+		0B4EAC7D1E557B3200DD059D /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		0B4EAC7E1E557B3200DD059D /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		0B4EAC461E557AE700DD059D /* TestNameSortAndSplit */ = {
 			isa = PBXGroup;
 			children = (
+				0B4EAC7A1E557B2900DD059D /* ChineseString.h */,
+				0B4EAC7B1E557B2900DD059D /* ChineseString.m */,
+				0B4EAC7D1E557B3200DD059D /* pinyin.c */,
+				0B4EAC7E1E557B3200DD059D /* pinyin.h */,
 				0B4EAC4A1E557AE700DD059D /* AppDelegate.h */,
 				0B4EAC4B1E557AE700DD059D /* AppDelegate.m */,
 				0B4EAC4D1E557AE700DD059D /* ViewController.h */,
@@ -276,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4EAC7F1E557B3200DD059D /* pinyin.c in Sources */,
+				0B4EAC7C1E557B2900DD059D /* ChineseString.m in Sources */,
 				0B4EAC4F1E557AE700DD059D /* ViewController.m in Sources */,
 				0B4EAC4C1E557AE700DD059D /* AppDelegate.m in Sources */,
 				0B4EAC491E557AE700DD059D /* main.m in Sources */,
